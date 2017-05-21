@@ -71,7 +71,7 @@ function initMap() {
     for (var organisationId in organisations) {
         // Add the circle for this city to the map.
         var organisation = organisations[organisationId];
-        var color = organisation.stage > 2 ? '#FF0000' : organisation.stage > 1 ? '#FFFF00' : '#FF00FF';
+        var color = organisation.stage > 2 ? '#8B2D14' : organisation.stage > 1 ? '#E66100' : '#4675AE';
         var organisationCircle = new google.maps.Circle({
             strokeColor: color,
             strokeOpacity: 0.8,
